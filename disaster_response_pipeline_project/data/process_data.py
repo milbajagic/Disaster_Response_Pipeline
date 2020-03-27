@@ -62,8 +62,8 @@ def save_data(df, database_filename):
         df -> clean Pandas dataframe
         database_filename -> destination database file (.db)
     """
-    engine = create_engine('sqlite:///InsertDatabaseName.db')
-    df.to_sql('InsertTableName', engine, index=False)
+    engine = create_engine('sqlite:///Database.db')
+    df.to_sql('table', con = engine, if_exists='replace', index=False)
 
 def main():
     if len(sys.argv) == 4:
