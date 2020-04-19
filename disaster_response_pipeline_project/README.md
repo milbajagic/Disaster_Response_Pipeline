@@ -28,25 +28,24 @@ Exports the final model as a pickle file
 pandas, sklearn, sqlite3, sqlalchemy, nltk, plotly, flask
 
 ### Included files
-- app
-| - templates
-| |- master.html  # main page of web app
-| |- go.html  # classification result page of web app
-|- run.py  # Flask file that runs app
+* app
+    * templates
+        * master.html  # main page of web app
+        * go.html  # classification result page of web app
+    * run.py  # Flask file that runs app
 
-- data
-|- disaster_categories.csv  # data to process
-|- disaster_messages.csv  # data to process
-|- Database.db # database to save clean data to
-|- process_data.py
-|- ETL Pipeline Preparation.ipynb
+* data
+    * disaster_categories.csv  # data to process
+    * disaster_messages.csv  # data to process
+    * Database.db # database to save clean data to
+    * process_data.py
+    * ETL Pipeline Preparation.ipynb
 
-- models
-|- train_classifier.py
-|- ML Pipeline Preparation.ipynb
+* models
+    * train_classifier.py
+    * ML Pipeline Preparation.ipynb
 
-- workspace_utils.py
-- README.md
+* README.md
 
 ### How to run:
 1. Run the following commands in the project's root directory to set up your database and model.
