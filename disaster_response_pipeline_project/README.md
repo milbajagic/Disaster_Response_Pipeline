@@ -2,7 +2,7 @@
 This project was completed as part of the course requirements of Udacity's [Data Scientist Nanodegree](https://www.udacity.com/course/data-scientist-nanodegree--nd025) certification.
 
 ### Data
-The project used a data set from [Figure Eight](https://www.figure-eight.com/) that contained labeled disaster messages received by an aid organization. 
+The project used a data set from [Figure Eight](https://www.figure-eight.com/) that contained labeled disaster messages received by an aid organization.
 
 
 ### Main Project Components:
@@ -52,9 +52,9 @@ pandas, sklearn, sqlite3, sqlalchemy, nltk, plotly, flask
 1. Run the following commands in the project's root directory to set up your database and model.
 
     - To run ETL pipeline that cleans data and stores in database
-        `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
+        `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/Database.db`
     - To run ML pipeline that trains classifier and saves
-        `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
+        `python models/train_classifier.py data/Database.db models/classifier.pkl`
 
 2. Run the following command in the app's directory to run your web app.
     `python run.py`
